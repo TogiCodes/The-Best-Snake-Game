@@ -226,7 +226,10 @@ class Apple{
             if (!isTouching) {
                 break;
             } 
+            if(isTouching) {
+
             gameOver = true;
+            }
         }
     }
 }
